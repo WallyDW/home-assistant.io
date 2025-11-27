@@ -15,7 +15,9 @@ related:
 ha_quality_scale: legacy
 ---
 
-The `rejseplanen` {% term integration %} will provide you with travel details for Danish public transport, using timetable data from [Rejseplanen](https://www.rejseplanen.dk/).
+The `rejseplanen` {% term integration %} should provide you with travel details for Danish public transport, using timetable data from [Rejseplanen](https://www.rejseplanen.dk/), but the provider deprecated the API access in December 2024.
+A total rewrite of the integration is needed to work with the new API 2.0.
+Do not spend time on trying to set this integration up.
 
 ## Configuration
 
